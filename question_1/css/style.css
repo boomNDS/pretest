@@ -1,0 +1,26 @@
+html,
+body {
+    height: 100%;
+}
+
+.row {
+    display: flex;
+    height: 100%;
+}
+
+.col {
+    display: block;
+    border: solid 1px black;
+}
+
+.first {
+    width: 200px;
+}
+
+.middle {
+    width: 100%;
+}
+
+.last {
+    width: 300px;
+}
