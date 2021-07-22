@@ -41,7 +41,7 @@ function isPrime(n) {
 }
 //   n = (n-1) + (n-2)
 function isFibanacci(num) {
-    if (fibanacci(num) == fibanacci(num - 1) - fibanacci(num - 2)) {
+    if (fibanacci(num) == fibanacci(num - 1) + fibanacci(num - 2)) {
         return true
     } else {
         return false
